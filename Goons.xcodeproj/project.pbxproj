@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B996FA1027FD881E00CB2D67 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B996FA0F27FD881E00CB2D67 /* SecondView.swift */; };
 		B99C932A27F19E320024B283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C932927F19E320024B283 /* AppDelegate.swift */; };
-		B99C932E27F19E320024B283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C932D27F19E320024B283 /* ViewController.swift */; };
+		B99C932E27F19E320024B283 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C932D27F19E320024B283 /* FirstViewController.swift */; };
 		B99C933327F19E350024B283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99C933227F19E350024B283 /* Assets.xcassets */; };
 		B99C933E27F1ACF70024B283 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C933D27F1ACF70024B283 /* SecondViewController.swift */; };
+		B9B84E0E27FD841400898396 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B84E0D27FD841400898396 /* FirstView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B996FA0F27FD881E00CB2D67 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		B99C932627F19E320024B283 /* Goons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99C932927F19E320024B283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B99C932D27F19E320024B283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B99C932D27F19E320024B283 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B99C933227F19E350024B283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B99C933727F19E350024B283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B99C933D27F1ACF70024B283 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B9B84E0D27FD841400898396 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B996FA1127FD898000CB2D67 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B99C932D27F19E320024B283 /* FirstViewController.swift */,
+				B99C933D27F1ACF70024B283 /* SecondViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B996FA1227FD899600CB2D67 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				B9B84E0D27FD841400898396 /* FirstView.swift */,
+				B996FA0F27FD881E00CB2D67 /* SecondView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
 		B99C931D27F19E320024B283 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				B99C932927F19E320024B283 /* AppDelegate.swift */,
-				B99C932D27F19E320024B283 /* ViewController.swift */,
-				B99C933D27F1ACF70024B283 /* SecondViewController.swift */,
+				B996FA1127FD898000CB2D67 /* ViewController */,
+				B996FA1227FD899600CB2D67 /* VIew */,
 				B99C933227F19E350024B283 /* Assets.xcassets */,
 				B99C933727F19E350024B283 /* Info.plist */,
 			);
@@ -131,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B99C933E27F1ACF70024B283 /* SecondViewController.swift in Sources */,
-				B99C932E27F19E320024B283 /* ViewController.swift in Sources */,
+				B996FA1027FD881E00CB2D67 /* SecondView.swift in Sources */,
+				B9B84E0E27FD841400898396 /* FirstView.swift in Sources */,
+				B99C932E27F19E320024B283 /* FirstViewController.swift in Sources */,
 				B99C932A27F19E320024B283 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,14 +9,17 @@ import UIKit
 
 class SecondViewController: UIViewController {
     // MARK: - Properties
-
-    var scrollView = UIScrollView()
     var fullSize :CGSize!
-    var imageView = UIImageView()
-    var label1 = UILabel()
-    var label2 = UILabel()
-    var redView = UIView()
-
+//    var scrollView = UIScrollView()
+//    var imageView = UIImageView()
+//    var label1 = UILabel()
+//    var label2 = UILabel()
+//    var redView = UIView()
+    var scrollView = ScrollView()
+    var imageView = ImageView()
+    var label1 = Label1()
+    var label2 = Label2()
+    var redView = RedView()
     // MARK: - Methods
 
     override func viewDidLoad() {
