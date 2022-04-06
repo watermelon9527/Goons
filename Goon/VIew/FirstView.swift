@@ -10,6 +10,7 @@ import UIKit
 class FirstView: UIView {
 
     // MARK: - Properties
+
     var buttonAction: (() -> Void)?
 
     lazy var nextButton: UIButton = {

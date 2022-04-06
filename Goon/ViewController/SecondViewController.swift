@@ -9,18 +9,14 @@ import UIKit
 
 class SecondViewController: UIViewController {
     // MARK: - Properties
-    var fullSize :CGSize!
-//    var scrollView = UIScrollView()
-//    var imageView = UIImageView()
-//    var label1 = UILabel()
-//    var label2 = UILabel()
-//    var redView = UIView()
-    var scrollView = ScrollView()
-    var imageView = ImageView()
-    var label1 = Label1()
-    var label2 = Label2()
-    var redView = RedView()
-    // MARK: - Methods
+    var fullSize: CGSize!
+    var scrollView = UIScrollView()
+    var imageView = UIImageView()
+    var label1 = UILabel()
+    var label2 = UILabel()
+    var redView = UIView()
+    //let secondView = SecondView()
+    // MARK: - LifeCycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +24,15 @@ class SecondViewController: UIViewController {
         fullSize = UIScreen.main.bounds.size
         setProperties()
         activateConstraints()
+
+     //   self.secondView.buttonAction = back
     }
+//
+//    override func loadView() {
+//        self.view = secondView
+//    }
+
+    // MARK: - Methods
 
     func setNav() {
         self.title = "果思設計"
@@ -47,7 +51,6 @@ class SecondViewController: UIViewController {
 
         scrollView.showsVerticalScrollIndicator = true
         scrollView.isScrollEnabled = true
-
         view.addSubview(scrollView)
     }
 
